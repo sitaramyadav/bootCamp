@@ -9,11 +9,15 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../BirthdayParty/src/Options.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../BirthdayParty/test/Formats/TemplateTest.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../BirthdayParty/test/person/GenderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../BirthdayParty/src/Label.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Numbers.java" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/../BirthdayParty/test/AddressTest.java" afterPath="$PROJECT_DIR$/../BirthdayParty/test/person/AddressTest.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/../BirthdayParty/test/LabelTest.java" afterPath="$PROJECT_DIR$/../BirthdayParty/test/Formats/LabelTest.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/../BirthdayParty/test/NameTest.java" afterPath="$PROJECT_DIR$/../BirthdayParty/test/person/NameTest.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/../BirthdayParty/test/PersonTest.java" afterPath="$PROJECT_DIR$/../BirthdayParty/test/person/PersonTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/bootCamp/Rectangle.class" afterPath="$PROJECT_DIR$/out/production/bootCamp/Rectangle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/bootCamp/RectangleTest.class" afterPath="$PROJECT_DIR$/out/test/bootCamp/RectangleTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BirthdayParty/src/ArgumentsSeparator.java" afterPath="$PROJECT_DIR$/../BirthdayParty/src/ArgumentsSeparator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BirthdayParty/src/FileRead.java" afterPath="$PROJECT_DIR$/../BirthdayParty/src/FileRead.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BirthdayParty/src/LabelPrinter.java" afterPath="$PROJECT_DIR$/../BirthdayParty/src/LabelPrinter.java" />
@@ -28,6 +32,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BirthdayParty/test/OperationsTest.java" afterPath="$PROJECT_DIR$/../BirthdayParty/test/OperationsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../BirthdayParty/test/PersonParserTest.java" afterPath="$PROJECT_DIR$/../BirthdayParty/test/PersonParserTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LinkedListInJava/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LinkedListInJava/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rectangle.java" afterPath="$PROJECT_DIR$/src/Rectangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RectangleTest.java" afterPath="$PROJECT_DIR$/test/RectangleTest.java" />
     </list>
     <ignored path="bootCamp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,13 +60,13 @@
       <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16750419">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.43551087">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,26 +76,9 @@
         <entry file="file://$PROJECT_DIR$/test/RectangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Numbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Numbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-              <folding>
-                <element signature="e#81#82#0" expanded="true" />
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +100,7 @@
         <option value="Shibi/Viraj" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -121,9 +112,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/dimensions/Breadth.java" />
         <option value="$PROJECT_DIR$/src/dimensions/Length.java" />
-        <option value="$PROJECT_DIR$/test/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/Numbers.java" />
         <option value="$PROJECT_DIR$/src/Rectangle.java" />
+        <option value="$PROJECT_DIR$/test/RectangleTest.java" />
       </list>
     </option>
   </component>
@@ -525,6 +516,12 @@
     <history-entry file="All_in_bootCamp - 2016.03.16 at 14h 39m 16s.xml">
       <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_bootCamp - 2016.03.16 at 16h 48m 06s.xml">
+      <configuration name="All in bootCamp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_bootCamp - 2016.03.16 at 16h 48m 49s.xml">
+      <configuration name="All in bootCamp" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
@@ -536,11 +533,12 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.502442" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -550,7 +548,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -573,37 +570,22 @@
     <entry file="file://$PROJECT_DIR$/test/RectangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Numbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16750419">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.43551087">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
           </folding>
         </state>
       </provider>

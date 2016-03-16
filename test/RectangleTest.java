@@ -7,20 +7,20 @@ public class RectangleTest {
     Rectangle rectangle;
     @Before
     public void setUp() throws Exception {
-        Numbers length = new Numbers(5);
-        Numbers breadth = new Numbers(5);
+        Double length = 5d;
+        Double breadth = 5d;
         rectangle = new Rectangle(length,breadth);
     }
 
     @Test
     public void testGetArea_should_provide_area_of_rectangle() throws Exception {
-        int expectedArea = 25;
-        assertEquals(expectedArea,rectangle.getArea());
+        double expectedArea = 25;
+        assertEquals( rectangle.getArea(), expectedArea ,0.001);
     }
 
     @Test
     public void testGetPerimeter_should_provide_perimeter_of_the_rectangle() throws Exception {
-        int expectedPerimeter = 20;
-        assertEquals(expectedPerimeter,rectangle.getPerimeter());
+        double expectedPerimeter = 20;
+        assertEquals(expectedPerimeter,rectangle.getPerimeter(),0.001);
     }
 }
