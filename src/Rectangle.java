@@ -8,12 +8,12 @@ public class Rectangle {
     private double length;
     private double breadth;
 
-    private Rectangle(double length, double breadth) {
+    protected Rectangle(double length, double breadth) {
         this.length = length;
         this.breadth = breadth;
     }
 
-    static public Rectangle createRectange(double length, double breadth) throws Exception {
+    static public Rectangle createRectangle(double length, double breadth) throws Exception {
         if (length <= 0 || breadth <= 0)
             throw new IllegalArgumentException("Non positive input is provided length :" + length +" breadth :"+ breadth + " while creating rectangle");
         return new Rectangle(length, breadth);

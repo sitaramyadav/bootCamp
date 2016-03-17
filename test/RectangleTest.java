@@ -14,7 +14,7 @@ public class RectangleTest {
     public void setUp() throws Exception {
         double length = 3.4d;
         double breadth = 4.5d;
-        rectangle= Rectangle.createRectange(length, breadth);
+        rectangle= Rectangle.createRectangle(length, breadth);
 
     }
 
@@ -39,7 +39,7 @@ public class RectangleTest {
         double breadth = 20;
         thrown.expect(IllegalArgumentException.class);
         thrown.expectMessage("Non positive input is provided length :-2.0 breadth :20.0 while creating rectangle");
-        Rectangle.createRectange(length,breadth);
+        Rectangle rectangle = Rectangle.createRectangle(length,breadth);
     }
 
     @Test
@@ -48,7 +48,7 @@ public class RectangleTest {
         double breadth = -2;
         thrown.expect(IllegalArgumentException.class);
         thrown.expectMessage("Non positive input is provided length :20.0 breadth :-2.0 while creating rectangle");
-        Rectangle.createRectange(length,breadth);
+        Rectangle rectangle = Rectangle.createRectangle(length,breadth);
     }
 
     @Test
@@ -57,6 +57,6 @@ public class RectangleTest {
         double breadth = -2;
         thrown.expect(IllegalArgumentException.class);
         thrown.expectMessage("Non positive input is provided length :0.0 breadth :-2.0 while creating rectangle");
-        Rectangle.createRectange(length,breadth);
+        Rectangle rectangle = Rectangle.createRectangle(length,breadth);
     }
 }

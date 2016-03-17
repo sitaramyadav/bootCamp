@@ -1,10 +1,7 @@
-------------------------Requirements-1-------------------------------
+------------------------Requirements-------------------------------
 
 As a match student ,i want to represent a rectangle ==>
- - so that i will be able to calculate area.
- - so that i will be able to calculate perimeter.
+ - so that i will be able to calculate area and perimeter.
 
-----------------------Requirements-2---------------------------------
-
-As a match student ,i want to represent a squire  ==>,
-    -so that i can calculate its area and perimeter.
+As a math student, I want to represent a square
+  - so that i can calculate its area and perimeter

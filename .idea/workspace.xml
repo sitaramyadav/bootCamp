@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f31de345-4a0a-4ebe-a72f-4992dcefafdd" name="Default" comment="factory method with test added. To protect the constructed call with non positive numbers&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="f31de345-4a0a-4ebe-a72f-4992dcefafdd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Rectangle.java" afterPath="$PROJECT_DIR$/src/Rectangle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Square.java" afterPath="$PROJECT_DIR$/src/Square.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/RectangleTest.java" afterPath="$PROJECT_DIR$/test/RectangleTest.java" />
     </list>
     <ignored path="bootCamp.iws" />
@@ -34,31 +34,32 @@
         <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="95" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
               <folding>
-                <element signature="e#0#833#0" expanded="false" />
-                <element signature="e#699#700#0" expanded="false" />
-                <element signature="e#738#739#0" expanded="false" />
+                <element signature="e#0#836#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TODO" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TODO">
+      <file leaf-file-name="Square.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36484244">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.12546125">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="37" />
+              <folding>
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RectangleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/RectangleTest.java">
+      <file leaf-file-name="SquareTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/SquareTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,8 +72,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -96,9 +97,11 @@
         <option value="$PROJECT_DIR$/src/dimensions/Breadth.java" />
         <option value="$PROJECT_DIR$/src/dimensions/Length.java" />
         <option value="$PROJECT_DIR$/src/Numbers.java" />
-        <option value="$PROJECT_DIR$/src/Rectangle.java" />
         <option value="$PROJECT_DIR$/test/RectangleTest.java" />
         <option value="$PROJECT_DIR$/TODO" />
+        <option value="$PROJECT_DIR$/test/SquareTest.java" />
+        <option value="$PROJECT_DIR$/src/Square.java" />
+        <option value="$PROJECT_DIR$/src/Rectangle.java" />
       </list>
     </option>
   </component>
@@ -132,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,10 +154,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootCamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootCamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -163,7 +180,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -476,37 +493,50 @@
       <option name="number" value="Default" />
       <updated>1458117921333</updated>
     </task>
+    <task id="LOCAL-00001" summary="added the exception test">
+      <created>1458194481703</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1458194481703</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fist version of Square assignments completed.">
+      <created>1458196029534</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1458196029534</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_bootCamp - 2016.03.17 at 10h 59m 11s.xml">
+    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 08m 12s.xml">
       <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_bootCamp - 2016.03.17 at 10h 59m 21s.xml">
+    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 08m 22s.xml">
       <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 00m 33s.xml">
+    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 11m 55s.xml">
       <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 00m 45s.xml">
+    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 12m 25s.xml">
       <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 34m 16s.xml">
+    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 12m 40s.xml">
       <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 34m 57s.xml">
+    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 52m 46s.xml">
       <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 35m 20s.xml">
+    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 53m 19s.xml">
       <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 35m 28s.xml">
+    <history-entry file="All_in_bootCamp - 2016.03.17 at 13h 10m 01s.xml">
       <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 35m 39s.xml">
+    <history-entry file="All_in_bootCamp - 2016.03.17 at 13h 11m 14s.xml">
       <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_bootCamp - 2016.03.17 at 11h 35m 58s.xml">
+    <history-entry file="All_in_bootCamp - 2016.03.17 at 13h 11m 51s.xml">
       <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -520,11 +550,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.502442" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2184049" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3278302" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06625767" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24876544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24908425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -545,10 +575,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed two versions of bootcamp requirements" />
     <MESSAGE value="factory method with test added. To protect the constructed call with non positive numbers&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="factory method with test added. To protect the constructed call with non positive numbers&#10;" />
+    <MESSAGE value="added the exception test" />
+    <MESSAGE value="fist version of Square assignments completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="fist version of Square assignments completed." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -559,41 +593,9 @@
     <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="95" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#833#0" expanded="false" />
-            <element signature="e#699#700#0" expanded="false" />
-            <element signature="e#738#739#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TODO">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="52" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/RectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#833#0" expanded="false" />
-            <element signature="e#699#700#0" expanded="false" />
-            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#0#836#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -610,9 +612,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -621,9 +621,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#833#0" expanded="false" />
-            <element signature="e#699#700#0" expanded="false" />
-            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#0#836#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -640,9 +638,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -651,9 +647,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#833#0" expanded="false" />
-            <element signature="e#699#700#0" expanded="false" />
-            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#0#836#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -662,39 +656,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18819188">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15682657">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="95" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
           <folding>
-            <element signature="e#0#833#0" expanded="false" />
-            <element signature="e#699#700#0" expanded="false" />
-            <element signature="e#738#739#0" expanded="false" />
+            <element signature="e#0#836#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/RectangleTest.java">
+    <entry file="file://$PROJECT_DIR$/test/SquareTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TODO">
+    <entry file="file://$PROJECT_DIR$/src/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36484244">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.12546125">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
