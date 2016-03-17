@@ -37,8 +37,8 @@ public class RectangleTest {
     public void rectangle_throws_exception_for_non_positive_length() throws Exception {
         double length = -2;
         double breadth = 20;
-        thrown.expect(Exception.class);
-        thrown.expectMessage("Non positive input is provided length :-2.0 breadth :20.0");
+        thrown.expect(IllegalArgumentException.class);
+        thrown.expectMessage("Non positive input is provided length :-2.0 breadth :20.0 while creating rectangle");
         Rectangle rectangle = Rectangle.createRectange(length,breadth);
     }
 
@@ -46,8 +46,8 @@ public class RectangleTest {
     public void rectangle_throws_exception_for_non_positive_breadth() throws Exception {
         double length = 20;
         double breadth = -2;
-        thrown.expect(Exception.class);
-        thrown.expectMessage("Non positive input is provided length :20.0 breadth :-2.0");
+        thrown.expect(IllegalArgumentException.class);
+        thrown.expectMessage("Non positive input is provided length :20.0 breadth :-2.0 while creating rectangle");
         Rectangle rectangle = Rectangle.createRectange(length,breadth);
     }
 
@@ -55,8 +55,8 @@ public class RectangleTest {
     public void rectangle_throws_exception_if_any_of_given_length_or_breadth_is_zero() throws Exception {
         double length = 0;
         double breadth = -2;
-        thrown.expect(Exception.class);
-        thrown.expectMessage("Non positive input is provided length :0.0 breadth :-2.0");
+        thrown.expect(IllegalArgumentException.class);
+        thrown.expectMessage("Non positive input is provided length :0.0 breadth :-2.0 while creating rectangle");
         Rectangle rectangle = Rectangle.createRectange(length,breadth);
     }
 }

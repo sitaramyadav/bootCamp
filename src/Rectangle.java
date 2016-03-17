@@ -15,7 +15,7 @@ public class Rectangle {
 
     static public Rectangle createRectange(double length, double breadth) throws Exception {
         if (length <= 0 || breadth <= 0)
-            throw new Exception("Non positive input is provided length :" + length +" breadth :"+ breadth);
+            throw new IllegalArgumentException("Non positive input is provided length :" + length +" breadth :"+ breadth + " while creating rectangle");
         return new Rectangle(length, breadth);
     }
 
