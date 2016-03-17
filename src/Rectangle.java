@@ -5,20 +5,26 @@ Job of Rectangle is to calculate any quantity of Rectangle using length and brea
 
 public class Rectangle {
 
-    private final double length;
-    private final double breadth;
+    private double length;
+    private double breadth;
 
-    public Rectangle(double length, double breadth) {
+    private Rectangle(double length, double breadth) {
         this.length = length;
         this.breadth = breadth;
     }
 
+    static public Rectangle createRectange(double length, double breadth) throws Exception {
+        if (length <= 0 || breadth <= 0)
+            throw new Exception("Non positive input is provided length :" + length +" breadth :"+ breadth);
+        return new Rectangle(length, breadth);
+    }
+
     public double calculateArea() {
-        return length *breadth;
+        return length * breadth;
     }
 
     public double calculatePerimeter() {
-        return 2*(length + breadth);
+        return 2 * (length + breadth);
     }
 }
     
