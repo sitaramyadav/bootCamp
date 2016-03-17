@@ -5,3 +5,28 @@ As a match student ,i want to represent a rectangle ==>
 
 As a math student, I want to represent a square
   - so that i can calculate its area and perimeter
+
+
+-------------TODO-------------------------------------------------
+
+==> Version 1:
+
+Create RectangleTest
+    calculateAreaShouldTestCalculateArea()
+    calculatePerimeterShouldTestCalculatePerimeter()
+
+Create Rectangle
+    calculateArea()
+    calculatePerimeter()
+
+
+==> Version 2:
+
+Create SquareTest
+    calculateAreaShouldTestCalculateArea()
+    calculatePerimeterShouldTestCalculatePerimeter()
+
+Create Square
+    calculateArea()
+    calculatePerimeter()
+
