@@ -1,18 +1,23 @@
+/*
+Job of Rectangle is to calculate any quantity of Rectangle using length and breadth
+    or length or breadth.
+ */
+
 public class Rectangle {
 
-    private final Double length;
-    private final Double breadth;
+    private final double length;
+    private final double breadth;
 
-    public Rectangle(Double length, Double breadth) {
+    public Rectangle(double length, double breadth) {
         this.length = length;
         this.breadth = breadth;
     }
 
-    public Double getArea() {
+    public double calculateArea() {
         return length *breadth;
     }
 
-    public Double getPerimeter() {
+    public double calculatePerimeter() {
         return 2*(length + breadth);
     }
 }
