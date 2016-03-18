@@ -6,27 +6,46 @@ As a match student ,i want to represent a rectangle ==>
 As a math student, I want to represent a square
   - so that i can calculate its area and perimeter
 
+As a math student ,i want to represent a chance, of getting tails when flipping a coin
+As a match student ,i want to represent a chance of not getting tail when flipping a coin.
+As match student , i want to represent a chance of getting tails when flipping two coins.
+As a math student ,i want to represent a chance of getting at least one tail when flipping two coins.
 
--------------TODO-------------------------------------------------
+
+p(a||b = !(!p(a)) && !p(b))
+
+-------------------------------TODO-----------------------------------
 
 ==> Version 1:
 
-Create RectangleTest
+Create shape.RectangleTest
     calculateAreaShouldTestCalculateArea()
     calculatePerimeterShouldTestCalculatePerimeter()
 
-Create Rectangle
+Create shape.Rectangle
     calculateArea()
     calculatePerimeter()
 
 
 ==> Version 2:
 
-Create SquareTest
+Create shape.SquareTest
     calculateAreaShouldTestCalculateArea()
     calculatePerimeterShouldTestCalculatePerimeter()
 
-Create Square
+Create shape.Square
     calculateArea()
     calculatePerimeter()
+
+===> Version 3:
+
+     Create Chance
+     create coin class which has head and tail
+     provide coin to chance class
+     flip the coin
+     get the probability of getting tails
+
+
+
+
 

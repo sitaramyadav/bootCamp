@@ -1,5 +1,5 @@
-/*
-Job of Rectangle is to calculate any quantity of Rectangle using length and breadth
+package shape;/*
+Job of shape.Rectangle is to calculate any quantity of shape.Rectangle using length and breadth
     or length or breadth.
  */
 
