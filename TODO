@@ -1,18 +1,34 @@
 ------------------------Requirements-------------------------------
-
+------------------------Version1-------------------------------
 As a match student ,i want to represent a rectangle ==>
  - so that i will be able to calculate area and perimeter.
+------------------------Version2-------------------------------
 
-As a math student, I want to represent a square
+As a math student, I want to represent a square ==>
   - so that i can calculate its area and perimeter
+------------------------Version3-------------------------------
 
-As a math student ,i want to represent a chance, of getting tails when flipping a coin
-As a match student ,i want to represent a chance of not getting tail when flipping a coin.
-As match student , i want to represent a chance of getting tails when flipping two coins.
-As a math student ,i want to represent a chance of getting at least one tail when flipping two coins.
+As a math student ,i want to represent a chance ==>
+    - of getting tails when flipping a coin
+    - of not getting tail when flipping a coin.
+    - of getting tails when flipping two coins.
+    - of getting at least one tail when flipping two coins.
 
 
 p(a||b = !(!p(a)) && !p(b))
+------------------------Version4-------------------------------
+
+As a math student -
+    - I wish to compare length in feet and inches.
+    - I wish to compare length in inches and centimeters
+    - I wish to compare length in cm and mm
+        ==> 1 cm = 10mm
+    - I wish compare volumes in liter in gallon.
+        ==>1 gallon = 3.78 liter
+
+    - I want to be able to add two length in inches
+    - I want to able be able to add two length in any unit and the standard output
+    - is inches
 
 -------------------------------TODO-----------------------------------
 
