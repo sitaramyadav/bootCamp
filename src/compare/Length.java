@@ -1,9 +1,9 @@
 package compare;
 
-public class Comparison {
+public class Length {
     StandardUnit unit1;
     StandardUnit unit2;
-    public Comparison(StandardUnit unit1, StandardUnit unit2){
+    public Length(StandardUnit unit1, StandardUnit unit2){
         this.unit1 = unit1;
         this.unit2 = unit2;
     }
@@ -11,4 +11,7 @@ public class Comparison {
         return unit1.convertIntoStandardUnit()==unit2.convertIntoStandardUnit();
     }
 
+    public double addTwoLength(){
+        return unit1.convertIntoStandardUnit()+unit2.convertIntoStandardUnit();
+    }
 }

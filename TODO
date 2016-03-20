@@ -30,6 +30,15 @@ As a math student -
     - I want to able be able to add two length in any unit and the standard output
     - is inches
 
+  As a math student (not a good one ), I wish to compare volumes and length
+            1 gallon = 1 inch
+
+  As a math student , i want to add two volumes in any unit and the standard output is liters
+            1 gallon + 1 liter = 4.78 liters
+
+  As a math student ,i want to call out errors in a question paper that adds liters with inches.
+            1 liter + 1 inches = my teacher is idot;
+
 -------------------------------TODO-----------------------------------
 
 ==> Version 1:
