@@ -5,18 +5,18 @@ public enum LengthUnit implements Unit {
     CM(0.4),
     MM(0.04);
 
-    private double conversionFactorForInch;
+    private double baseFactor;
 
-    LengthUnit(double conversionFactorForInch) {
-        this.conversionFactorForInch = conversionFactorForInch;
+    LengthUnit(double baseFactor) {
+        this.baseFactor = baseFactor;
     }
 
-    public double getConversionFactorForInch() {
-        return conversionFactorForInch;
+    public double getBaseFactor() {
+        return baseFactor;
     }
 
     @Override
-    public Unit standardUnit() {
+    public Unit getBaseUnit() {
         return LengthUnit.INCH;
     }
 

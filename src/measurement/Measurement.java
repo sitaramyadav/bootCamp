@@ -17,30 +17,30 @@ public class Measurement {
             long newValue = Math.round(value);
             return (double) newValue / factor;
         }
-        private Measurement convertToStandard() {
-            double value = round(this.value  * unit.getConversionFactorForInch() ,2);
-            Unit unit = this.unit.standardUnit();
+        private Measurement toBase() {
+            double value = round(this.value  * unit.getBaseFactor() ,2);
+            Unit unit = this.unit.getBaseUnit();
             return new Measurement(value,unit);
         }
         private Measurement convert(Unit unit) {
-            Measurement self = convertToStandard();
-            double newValue = round(self.value / unit.getConversionFactorForInch() ,2);
+            Measurement self = toBase();
+            double newValue = round(self.value / unit.getBaseFactor() ,2);
             return  new Measurement(newValue,unit);
         }
         public  Measurement add (Measurement measurement) throws IdiotTeacherException {
-            if(!isOperable(measurement))
+            if(!canOperate(measurement))
                 throw new IdiotTeacherException();
-            Measurement measurementToAdd = measurement.convertToStandard();
-            Measurement self = convertToStandard();
+            Measurement measurementToAdd = measurement.toBase();
+            Measurement self = toBase();
             double sum = round(self.value + measurementToAdd.value ,2);
-            return new Measurement(sum ,unit.standardUnit());
+            return new Measurement(sum ,unit.getBaseUnit());
         }
         public boolean compare ( Measurement measurement) throws IllegalComparisonException {
-            if(!isOperable(measurement))
+            if(!canOperate(measurement))
                 throw new IllegalComparisonException();
             return  equals(measurement);
         }
-        private boolean isOperable(Measurement measurement) {
+        private boolean canOperate(Measurement measurement) {
             return  (measurement == null || unit.getClass() == measurement.unit.getClass());
         }
         @Override

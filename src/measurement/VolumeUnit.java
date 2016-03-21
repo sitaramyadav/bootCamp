@@ -4,18 +4,18 @@ public enum VolumeUnit implements Unit {
     LITRE (1),
     GALLON(3.78);
 
-    private double conversionFactorForLitre;
+    private double baseFactor;
 
-    VolumeUnit(double conversionFactorForLitre) {
-        this.conversionFactorForLitre = conversionFactorForLitre;
+    VolumeUnit(double baseFactor) {
+        this.baseFactor = baseFactor;
     }
 
-    public double getConversionFactorForInch() {
-        return this.conversionFactorForLitre;
+    public double getBaseFactor() {
+        return this.baseFactor;
     }
 
     @Override
-    public Unit standardUnit() {
+    public Unit getBaseUnit() {
         return VolumeUnit.LITRE;
     }
 }

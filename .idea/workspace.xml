@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f31de345-4a0a-4ebe-a72f-4992dcefafdd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exception/IdiotTeacherException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exception/IllegalComparisonException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/measurement/Measurement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/measurement/Unit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/measurement/VolumeUnit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/measurement/MeasurementTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compare/Centimeter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compare/Feet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compare/Gallon.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compare/Inch.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compare/Liter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compare/Millimeter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/compare/StandardUnit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/compare/CentimeterTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/compare/LengthTest.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/compare/Length.java" afterPath="$PROJECT_DIR$/src/measurement/LengthUnit.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/exception/IllegalProbabilityException.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/measurement/LengthUnit.java" afterPath="$PROJECT_DIR$/src/measurement/LengthUnit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/measurement/Measurement.java" afterPath="$PROJECT_DIR$/src/measurement/Measurement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/measurement/Unit.java" afterPath="$PROJECT_DIR$/src/measurement/Unit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/measurement/VolumeUnit.java" afterPath="$PROJECT_DIR$/src/measurement/VolumeUnit.java" />
     </list>
     <ignored path="bootCamp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +30,7 @@
     <SUITE FILE_PATH="coverage/bootCamp$ProbabilityTest.coverage" NAME="ProbabilityTest Coverage Results" MODIFIED="1458356194206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>probability.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/bootCamp$All_in_bootCamp.coverage" NAME="All in bootCamp Coverage Results" MODIFIED="1458535564440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bootCamp$All_in_bootCamp.coverage" NAME="All in bootCamp Coverage Results" MODIFIED="1458537048947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -52,12 +41,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="LengthUnit.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LengthUnit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/measurement/LengthUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.033536587">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/src/measurement/Measurement.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,37 +98,17 @@
         <entry file="file://$PROJECT_DIR$/src/measurement/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VolumeUnit.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VolumeUnit.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/measurement/VolumeUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.5202703">
               <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IllegalArgumentException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exception/IllegalArgumentException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IllegalProbabilityException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exception/IllegalProbabilityException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -144,10 +118,18 @@
         <entry file="file://$PROJECT_DIR$/test/measurement/MeasurementTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Assert.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/junit/framework/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.918919">
+              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -227,12 +209,12 @@
         <option value="$PROJECT_DIR$/test/measurement/Measurement.java" />
         <option value="$PROJECT_DIR$/src/exception/IllegalComparisionException.java" />
         <option value="$PROJECT_DIR$/src/measurement/ksjd.java" />
-        <option value="$PROJECT_DIR$/src/measurement/VolumeUnit.java" />
         <option value="$PROJECT_DIR$/src/exception/IdiotTeacherException.java" />
         <option value="$PROJECT_DIR$/src/exception/IllegalComparisonException.java" />
         <option value="$PROJECT_DIR$/src/measurement/LengthUnit.java" />
-        <option value="$PROJECT_DIR$/src/measurement/Measurement.java" />
         <option value="$PROJECT_DIR$/test/measurement/MeasurementTest.java" />
+        <option value="$PROJECT_DIR$/src/measurement/Measurement.java" />
+        <option value="$PROJECT_DIR$/src/measurement/VolumeUnit.java" />
       </list>
     </option>
   </component>
@@ -430,7 +412,7 @@
       <recent name="dimensions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon">
+  <component name="RunManager" selected="JUnit.All in bootCamp">
     <configuration default="false" name="LengthUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -832,10 +814,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in bootCamp" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MeasurementTest.compareCanNotUnequalPhysicalQuantity" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MeasurementTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in bootCamp" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MeasurementTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MeasurementTest.compareCanNotUnequalPhysicalQuantity" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.LengthUnitTest" />
       </list>
     </recent_temporary>
@@ -887,39 +869,45 @@
       <option name="project" value="LOCAL" />
       <updated>1458490011114</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Seetaram/Vijay&#10;&#10;All iteration of compare Assignments refactored.&#10;&#10;&#10;&#10;">
+      <created>1458536251388</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1458536251388</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MeasurementTest_addAddedOneInchAndOneGallonAndGivesOneGallon - 2016.03.21 at 10h 18m 25s.xml">
-      <configuration name="MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon" configurationId="JUnit" />
+    <history-entry file="All_in_bootCamp - 2016.03.21 at 11h 59m 07s.xml">
+      <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest_addAddedOneInchAndOneGallonAndGivesOneGallon - 2016.03.21 at 10h 18m 32s.xml">
-      <configuration name="MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon" configurationId="JUnit" />
+    <history-entry file="All_in_bootCamp - 2016.03.21 at 12h 06m 07s.xml">
+      <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest_addAddedOneInchAndOneGallonAndGivesOneGallon - 2016.03.21 at 10h 19m 28s.xml">
-      <configuration name="MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon" configurationId="JUnit" />
+    <history-entry file="All_in_bootCamp - 2016.03.21 at 12h 06m 50s.xml">
+      <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest_addAddedOneInchAndOneGallonAndGivesOneGallon - 2016.03.21 at 10h 19m 54s.xml">
-      <configuration name="MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon" configurationId="JUnit" />
+    <history-entry file="All_in_bootCamp - 2016.03.21 at 12h 07m 15s.xml">
+      <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest_addAddedOneInchAndOneGallonAndGivesOneGallon - 2016.03.21 at 10h 20m 12s.xml">
-      <configuration name="MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon" configurationId="JUnit" />
+    <history-entry file="All_in_bootCamp - 2016.03.21 at 12h 09m 46s.xml">
+      <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest_addAddedOneInchAndOneGallonAndGivesOneGallon - 2016.03.21 at 10h 20m 29s.xml">
-      <configuration name="MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon" configurationId="JUnit" />
+    <history-entry file="All_in_bootCamp - 2016.03.21 at 12h 10m 48s.xml">
+      <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest_addAddedOneInchAndOneGallonAndGivesOneGallon - 2016.03.21 at 10h 20m 47s.xml">
-      <configuration name="MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon" configurationId="JUnit" />
+    <history-entry file="All_in_bootCamp - 2016.03.21 at 12h 11m 05s.xml">
+      <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest_addAddedOneInchAndOneGallonAndGivesOneGallon - 2016.03.21 at 10h 22m 14s.xml">
-      <configuration name="MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon" configurationId="JUnit" />
+    <history-entry file="All_in_bootCamp - 2016.03.21 at 12h 11m 20s.xml">
+      <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest_addAddedOneInchAndOneGallonAndGivesOneGallon - 2016.03.21 at 10h 22m 35s.xml">
-      <configuration name="MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon" configurationId="JUnit" />
+    <history-entry file="All_in_bootCamp - 2016.03.21 at 12h 20m 59s.xml">
+      <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTest_addAddedOneInchAndOneGallonAndGivesOneGallon - 2016.03.21 at 10h 22m 54s.xml">
-      <configuration name="MeasurementTest.addAddedOneInchAndOneGallonAndGivesOneGallon" configurationId="JUnit" />
+    <history-entry file="All_in_bootCamp - 2016.03.21 at 12h 22m 00s.xml">
+      <configuration name="All in bootCamp" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -933,7 +921,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.502442" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15337424" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23190184" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05185185" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47239265" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -996,7 +984,8 @@
     <MESSAGE value="Supriya/Seetaram&#10;&#10;&#10;All version of Probability Assignments added.&#10;&#10;Refactor the code --&#10;Created one package called shape and kept the Rectangle and Squire in side this package.&#10; now we had to handel more exception so it was good time to Create our one Exception Class so we created one Exception Class so that i can trow our own type of Exception which will help to user while wrong arguments passing.&#10;" />
     <MESSAGE value="Seetaran/Vijay&#10;&#10;&#10;First version of Compare Assignments added.&#10;" />
     <MESSAGE value="Seetaran/Vijay&#10;&#10;&#10;Centimeter added&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seetaran/Vijay&#10;&#10;&#10;Centimeter added&#10;" />
+    <MESSAGE value="Seetaram/Vijay&#10;&#10;All iteration of compare Assignments refactored.&#10;&#10;&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seetaram/Vijay&#10;&#10;All iteration of compare Assignments refactored.&#10;&#10;&#10;&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1021,7 +1010,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,6 +1030,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1043,6 +1041,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1115,6 +1116,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.385214">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1129,6 +1134,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1176,22 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exception/IllegalProbabilityException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exception/IllegalArgumentException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exception/IdiotTeacherException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20121951">
@@ -1199,16 +1191,6 @@
           <folding>
             <element signature="e#114#115#0" expanded="true" />
             <element signature="e#169#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/measurement/Measurement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1235,10 +1217,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/measurement/VolumeUnit.java">
+    <entry file="file://$PROJECT_DIR$/src/exception/IllegalArgumentException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.16768293">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/rules/ExpectedException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21324718">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#2299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.60365856">
+          <caret line="34" column="54" selection-start-line="32" selection-start-column="10" selection-end-line="34" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#4059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/junit/framework/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.918919">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1246,7 +1256,7 @@
     <entry file="file://$PROJECT_DIR$/src/measurement/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1254,7 +1264,15 @@
     <entry file="file://$PROJECT_DIR$/test/measurement/MeasurementTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurement/Measurement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1263,8 +1281,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/measurement/LengthUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.033536587">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurement/VolumeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5202703">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding />
         </state>
       </provider>
