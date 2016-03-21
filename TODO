@@ -14,8 +14,7 @@ As a math student ,i want to represent a chance ==>
     - of getting tails when flipping two coins.
     - of getting at least one tail when flipping two coins.
 
-
-p(a||b = !(!p(a)) && !p(b))
+    p(a||b = !(!p(a)) && !p(b))
 ------------------------Version4-------------------------------
 
 As a math student -
@@ -64,11 +63,26 @@ Create shape.Square
 
 ===> Version 3:
 
-     Create Chance
-     create coin class which has head and tail
-     provide coin to chance class
-     flip the coin
-     get the probability of getting tails
+     Create Probability
+        add
+        or
+        not
+
+===> Version 4:
+
+      Create Unit
+        -getBaseFactor
+        -getBaseUni
+      Create LengthUnit
+      Create VolumeUnit
+      Create Measurement
+        -convert
+        -compare
+        -toBase
+
+
+===> Version 5:
+
 
 
 
