@@ -38,6 +38,32 @@ As a math student -
   As a math student ,i want to call out errors in a question paper that adds liters with inches.
             1 liter + 1 inches = my teacher is idot;
 
+
+
+As math student -
+    I want to be able to compare temperature in Fahrenheit and celsius
+
+As banker
+    I want to abe able to compare two different currency
+
+------------------------Version5 With Anjaly joy-------------------------------
+
+Context--
+
+The Kingdom of Balloria is known for its wizards and their colorful magical balls.
+    These balls are very powerful and have to be stored safely when not in use.
+
+Requirements-
+    As provider of a service that lets wizards store their balls.
+    I'd like a bag that can hold a maximum of 12 balls.
+
+    Todo
+
+    Need a bag
+    bag can store a maximum of 12 balls.
+
+
+
 -------------------------------TODO-----------------------------------
 
 ==> Version 1:
