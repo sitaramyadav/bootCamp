@@ -1,15 +1,12 @@
 package wizard;
 
 public class Ball {
-    private int noOfBalls;
+    private final Color color;
 
-    public Ball(int noOfBalls) {
-        this.noOfBalls = noOfBalls;
+    public Ball(Color color) {
+        this.color = color;
     }
-
-    public boolean canStore(){
-        if(noOfBalls>12)
-            return false;
-        return true;
+    public boolean isColorOf(Color color){
+        return this.color.equals(color);
     }
 }

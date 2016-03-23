@@ -45,6 +45,12 @@ As math student -
 
 As banker
     I want to abe able to compare two different currency
+As a provider of a service that lets wizards store theirs balls
+I'd like a bad that allows a wizard to only put in a maximum of 3 green balls.
+
+As a provider of a service that lets wizards store their balls
+I'd like a bag that prevents a wizard from adding double the number of red balls than
+ green balls.
 
 ------------------------Version5 With Anjaly joy-------------------------------
 
@@ -57,11 +63,23 @@ Requirements-
     As provider of a service that lets wizards store their balls.
     I'd like a bag that can hold a maximum of 12 balls.
 
-    Todo
 
-    Need a bag
-    bag can store a maximum of 12 balls.
+    Ballorian law is very strict about the placement of balls.
+    If any of the balls violate any of the placement urles while being placed next to
+    each other,
+    the balls will explode and destroy Balloria.
 
+    As a provider of a service that lets the wizards
+        store their balls.
+
+      I have to report any attempt that violates
+        any of the placement rules.
+    as a provider of a service that lets wizards
+            store their balls
+       I'd like bag that lets a wizards add as many blue ball
+            as a bag can hold.
+        Need to create Bag
+        Need to pass ball
 
 
 -------------------------------TODO-----------------------------------
