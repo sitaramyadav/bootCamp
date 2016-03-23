@@ -50,7 +50,7 @@ public class BagTest {
     }
 
     @Test
-    public void pushBallShouldNotPushTheRedBallMoreThanOrEqualGreenBall() throws Exception {
+    public void pushBallShouldNotPushTheRedBallMoreThanOrEqualToDoubleOfGreenBall() throws Exception {
 
         Bag bag = new Bag();
 

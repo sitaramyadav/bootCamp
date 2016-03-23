@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f31de345-4a0a-4ebe-a72f-4992dcefafdd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/exception/BagFullException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wizard/Bag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/wizard/Color.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wizard/Ball.java" afterPath="$PROJECT_DIR$/src/wizard/Ball.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wizard/Bag.java" afterPath="$PROJECT_DIR$/src/wizard/Bag.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wizard/Color.java" afterPath="$PROJECT_DIR$/src/wizard/Color.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/wizard/BagTest.java" afterPath="$PROJECT_DIR$/test/wizard/BagTest.java" />
     </list>
     <ignored path="bootCamp.iws" />
@@ -58,8 +55,8 @@
       <file leaf-file-name="BagTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/wizard/BagTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
+            <state vertical-scroll-proportion="-13.51282">
+              <caret line="52" column="72" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#pushBallCanPushAnyNumberOfBlueBallAsBagCanContain#0;class#BagTest#0" expanded="false" />
@@ -71,8 +68,8 @@
       <file leaf-file-name="Bag.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/wizard/Bag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8960843">
-              <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.30873495">
+              <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#162#163#0" expanded="true" />
@@ -86,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/wizard/Color.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -183,11 +180,11 @@
         <option value="$PROJECT_DIR$/src/wizard/Ball.java" />
         <option value="$PROJECT_DIR$/test/wizard/BagTestTest.java" />
         <option value="$PROJECT_DIR$/TODO" />
-        <option value="$PROJECT_DIR$/src/wizard/Color.java" />
-        <option value="$PROJECT_DIR$/src/wizard/Bag.java" />
-        <option value="$PROJECT_DIR$/test/wizard/BagTest.java" />
         <option value="$PROJECT_DIR$/src/wizard/RedBallRules.java" />
         <option value="$PROJECT_DIR$/src/wizard/RedBallRule.java" />
+        <option value="$PROJECT_DIR$/src/wizard/Bag.java" />
+        <option value="$PROJECT_DIR$/test/wizard/BagTest.java" />
+        <option value="$PROJECT_DIR$/src/wizard/Color.java" />
       </list>
     </option>
   </component>
@@ -843,7 +840,13 @@
       <option name="project" value="LOCAL" />
       <updated>1458552876678</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Seetaram/Anjaly&#10;&#10;Except last Requirement (Summary) Every requirement added.">
+      <created>1458707234533</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1458707234533</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -856,20 +859,20 @@
     <history-entry file="BagTest - 2016.03.23 at 09h 43m 59s.xml">
       <configuration name="BagTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BagTest_bagShouldBeAbleToGiveTheNumberOfRedBalls - 2016.03.22 at 13h 40m 43s.xml">
-      <configuration name="BagTest.bagShouldBeAbleToGiveTheNumberOfRedBalls" configurationId="JUnit" />
+    <history-entry file="BagTest - 2016.03.23 at 09h 59m 18s.xml">
+      <configuration name="BagTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BagTest_bagShouldBeAbleToGiveTheNumberOfRedBalls - 2016.03.22 at 13h 46m 13s.xml">
-      <configuration name="BagTest.bagShouldBeAbleToGiveTheNumberOfRedBalls" configurationId="JUnit" />
+    <history-entry file="BagTest - 2016.03.23 at 09h 59m 26s.xml">
+      <configuration name="BagTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BagTest_bagShouldBeAbleToGiveTheNumberOfRedBalls - 2016.03.22 at 13h 47m 38s.xml">
-      <configuration name="BagTest.bagShouldBeAbleToGiveTheNumberOfRedBalls" configurationId="JUnit" />
+    <history-entry file="BagTest - 2016.03.23 at 10h 03m 14s.xml">
+      <configuration name="BagTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BagTest_bagShouldBeAbleToGiveTheNumberOfRedBalls - 2016.03.22 at 13h 49m 01s.xml">
-      <configuration name="BagTest.bagShouldBeAbleToGiveTheNumberOfRedBalls" configurationId="JUnit" />
+    <history-entry file="BagTest - 2016.03.23 at 10h 03m 30s.xml">
+      <configuration name="BagTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BagTest_bagShouldBeAbleToGiveTheNumberOfRedBalls - 2016.03.22 at 13h 49m 38s.xml">
-      <configuration name="BagTest.bagShouldBeAbleToGiveTheNumberOfRedBalls" configurationId="JUnit" />
+    <history-entry file="BagTest - 2016.03.23 at 10h 03m 46s.xml">
+      <configuration name="BagTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BagTest_bagShouldBeAbleToGiveTheNumberOfRedBalls - 2016.03.22 at 13h 49m 54s.xml">
       <configuration name="BagTest.bagShouldBeAbleToGiveTheNumberOfRedBalls" configurationId="JUnit" />
@@ -889,7 +892,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.502442" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14355828" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14355828" sideWeight="0.497558" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05135135" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -957,7 +960,8 @@
     <MESSAGE value="Seetaram/Vijay&#10;&#10;Commited to push the because now i have to work with another paire so that i will have the version as of now.&#10;&#10;&#10;&#10;" />
     <MESSAGE value="Seetaram&#10;&#10;Updated the Todo.&#10;&#10;" />
     <MESSAGE value="Seetaram/Anjaly&#10;first assignments added.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seetaram/Anjaly&#10;first assignments added.&#10;" />
+    <MESSAGE value="Seetaram/Anjaly&#10;&#10;Except last Requirement (Summary) Every requirement added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Seetaram/Anjaly&#10;&#10;Except last Requirement (Summary) Every requirement added." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -983,10 +987,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding>
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#344#345#0" expanded="false" />
+            <element signature="e#382#383#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1363,18 +1367,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wizard/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/wizard/BagTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
+        <state vertical-scroll-proportion="-13.51282">
+          <caret line="52" column="72" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#pushBallCanPushAnyNumberOfBlueBallAsBagCanContain#0;class#BagTest#0" expanded="false" />
@@ -1382,10 +1378,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/wizard/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/wizard/Bag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8960843">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.30873495">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#162#163#0" expanded="true" />

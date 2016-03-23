@@ -37,7 +37,7 @@ public class Bag {
         greenBalls.add(ball);
     }
 
-    public ArrayList<Ball> getListOf(Color colour) {
+    private ArrayList<Ball> getListOf(Color colour) {
         ArrayList<Ball> a = balls.get(colour);
         if (a == null){
             a = new ArrayList<>();
@@ -58,7 +58,7 @@ public class Bag {
         ArrayList<Ball> yellowBalls = getListOf(Color.YELLOW);
         yellowBalls.add(ball);
     }
-    public int getBagSize(){
+    private int getBagSize(){
         int size=0;
         Set set = balls.entrySet();
 
@@ -70,7 +70,7 @@ public class Bag {
         return size;
     }
 
-    public int getNumberOfBalls(Color color){
+    private int getNumberOfBalls(Color color){
         ArrayList<Ball> a = balls.get(color);
         if(a == null)
             return 0;
